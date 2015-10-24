@@ -1,0 +1,13 @@
+Error: listen EADDRINUSE :::10011
+    at Object.exports._errnoException (util.js:849:11)
+    at exports._exceptionWithHostPort (util.js:872:20)
+    at Server._listen2 (net.js:1231:14)
+    at listen (net.js:1267:10)
+    at Server.listen (net.js:1363:5)
+    at GameServer.startStatsServer (C:\Users\Administrator\Desktop\FFA-1\GameServer.js:930:21)
+    at GameServer.start (C:\Users\Administrator\Desktop\FFA-1\GameServer.js:224:10)
+    at Object.<anonymous> (C:\Users\Administrator\Desktop\FFA-1\index.js:25:12)
+    at Module._compile (module.js:434:26)
+    at Object.Module._extensions..js (module.js:452:10)
+[Game] Listening on port 1001
+[Game] Current game mode is Free For All
